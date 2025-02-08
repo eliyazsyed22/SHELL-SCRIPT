@@ -1,0 +1,71 @@
+#!/bin/bash called as shebang line this is a interpreter to run code
+# : sharp
+! : bang
+
+/bin/bash <File Name> executes
+"If you don't pass shebang then the script will exceute with current shell"
+
+
+
+# shell permissions
+
+user,group,others
+
+R = 4
+W = 2
+X = 1
+
+
+# checking built in commands
+
+type echo
+type -a echo
+
+
+# check the man page for bash
+
+man bash
+
+
+# id of user
+id -u
+echo ${UID}
+
+# display user Name
+id -un
+id -u -n
+id -nu
+
+
+# display user name another option
+whoami
+
+# display what type of command
+type -a whoami
+
+
+
+# output of type is whoami is /usr/bin/whoam "It is a program not a Shell built in command"
+
+
+
+# display type of test command
+type -a test
+"it is a shell builtin"
+
+
+
+#exit status
+if script executed successfully then exit status will be 0
+
+man useradd to get exit status
+
+# exit status of last command executed
+echo ${?}
+
+
+# Using string to test a conditional
+you can use single = 
+or you can use double ==
+double == will be used when matching for a pattern
+single = will be used when matching for exact pattern
