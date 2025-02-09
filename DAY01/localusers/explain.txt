@@ -69,3 +69,19 @@ you can use single =
 or you can use double ==
 double == will be used when matching for a pattern
 single = will be used when matching for exact pattern
+
+
+# read command
+it is like a input command in python
+
+read -p 'Type something: ' THING
+
+
+#user add
+
+sudo useradd username
+sudo su- eliyaz
+
+
+#check process
+ps -ef
