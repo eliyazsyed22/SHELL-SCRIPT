@@ -16,7 +16,7 @@ echo "Your username is ${USER_NAME}"
 
 # Display if the user is the root user or not
 # [[]] this is used for bash shell for others shell it may not work
-if [[ "${UID}" -eq 0]]
+if [[ "${UID}" -eq 0 ]]
 then
     echo "Your are root"
 else
