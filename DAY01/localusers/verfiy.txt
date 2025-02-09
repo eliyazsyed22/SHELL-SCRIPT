@@ -1,0 +1,3 @@
+# once script is completed run below commands
+cat /etc/passwd
+tail /etc/passwd

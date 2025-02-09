@@ -50,7 +50,7 @@ fi
 
 
 # Force password change on first login
-
+# -e will expire the current password and force the user to change password immediatley
 passwd -e ${USER_NAME}
 
 # Display the username, password and host where the user is created
