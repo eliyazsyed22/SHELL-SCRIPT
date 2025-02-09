@@ -66,5 +66,5 @@ echo "host:"
 echo "${HOSTNAME}"
 exit 0
 
-
+# script completed
 
