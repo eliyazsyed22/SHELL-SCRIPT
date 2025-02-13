@@ -1,0 +1,23 @@
+# execute previous command
+!v
+
+
+# display first lines of a file
+# man head -c1 filename
+-c = bytes
+head -n 1 filename
+-n = count
+
+
+#shuffle characters this will shuffle characters in string
+man shuf
+shuf usage = echo "${s}" | fold -w1 | shuf | head -1
+
+# fold print characters in vertical
+-c,-b,-w options in fold
+e
+l
+i
+y
+a
+z
