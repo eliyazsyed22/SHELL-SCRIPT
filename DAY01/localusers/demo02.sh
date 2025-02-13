@@ -3,6 +3,8 @@
 # Display the UID and username of the user executing this script
 # Display if the user is the root user or not
 
+
+#UID is an Enviromental varibale which is defined in Capital letters
 # Display the UID
 echo "Your UID is ${UID}"
 
