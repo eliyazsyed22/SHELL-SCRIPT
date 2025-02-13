@@ -54,6 +54,10 @@ type -a test
 "it is a shell builtin"
 
 
+# type of command wheter built in command or built in program
+head is /usr/bin/head it is built in program
+test is a shell builtin command
+
 
 #exit status
 if script executed successfully then exit status will be 0
