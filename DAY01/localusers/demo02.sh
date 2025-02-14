@@ -18,6 +18,8 @@ echo "Your username is ${USER_NAME}"
 
 # Display if the user is the root user or not
 # [[]] this is used for bash shell for others shell it may not work
+# [ ] you can use single bracket or double brackets
+# -eq is used for equal to
 if [[ "${UID}" -eq 0 ]]
 then
     echo "Your are root"
