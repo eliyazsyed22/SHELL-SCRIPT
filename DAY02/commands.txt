@@ -21,3 +21,12 @@ i
 y
 a
 z
+
+
+# sleep - it will sleep for specified time
+sleep 1m, sleep1s 
+
+
+# shift - shift is a shell builtin, it shift positional parameter
+man shift
+help shift
