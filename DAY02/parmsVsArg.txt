@@ -1,0 +1,15 @@
+# parmas is a varibale that used inside a shell script
+${0} - The name of the script or function being executed
+${1} - The first argument passed to the script or function
+${2} - The second argument passed to the script or function
+
+
+
+# arg is a variable that data pass in to shell script
+
+# If executed inside script they are parmas outside then it's called arguments
+
+
+# $@ is a special parameter that represents all the positional parameters (arguments) passed to the script or function. Each argument is treated as a separate word
+# $* is a special parameter that represents all the positional parameters (arguments) passed to the script. When you use $*, all the arguments are concatenated into a single string 
+
