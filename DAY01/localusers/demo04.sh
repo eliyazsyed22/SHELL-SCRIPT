@@ -23,7 +23,12 @@ useradd -c "${COMMENT}" -m ${USER_NAME}
 
 # set the password for the user
 
+echo ${PASSWORD} | passwd --stdin ${USER_NAME}
 
-#Force password change on first login
+# Force password change on first login
+
+passwd -e ${USER_NAME}
+
+
 
 
